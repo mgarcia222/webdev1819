@@ -1,15 +1,29 @@
 .one {
     font-family: cursive ;
+    background: red;
 }
 
 .two {
-    font-family: monospace;
+    font-family: monospace; 
+    background: #003366;
 }
 
 .three {
-    font-family: sans-serif;
+    font-family: Arial;
+    background: #00cc00;
 }
 
 .four {
-    background: #E74C3C;
+    background: #ff0000;
+    font-family: impact;
+}
+
+.five {
+    background: #0066cc;
+    font-family: verdana;
+}
+
+table, th, td {
+    border-style:solid;
+    color:blue;
 }
