@@ -1,0 +1,132 @@
+.one {
+    text-align:center;
+    font-family: impact;
+    font-size: 60px;
+    background-color:hsl(210, 100%, 80%);
+     margin: 25px 50px 75px 100px;
+     padding: 15px 15px 15px 15px;
+}
+.two{
+    font-size: 40px;
+    text-align: center;
+    font-family:sans-serif;
+}
+#three {
+    height: 300px;
+    width:300px;
+    border-style: solid;
+    border-width: 20px;
+    border-color:#003366;
+}
+.four {
+    height:300px;
+    width:300px;
+    border-style:dashed;
+    border-width: 20px;
+    border-color:#ff9999;
+}
+.buttonS {
+    height: 50px;
+    width:200px;
+
+}
+.button {
+    height: 50px;
+    width:185px;
+}
+.trav {
+    width:300px;
+    height:300px;
+    border-style: outset;
+    border-width:20px;
+    border-color:#F8F3DE;
+    
+}
+#lane {
+    height:50px;
+    width:200px;
+}
+
+#soc {
+    font-size: 90px;
+    font-family: cursive;
+    
+}
+#three, .four, .trav {
+    display:inline;
+}
+.h {
+    display:flex;
+}
+#school {
+    font-size:50px;
+    text-align:center;
+    font-family:impact;
+    color:gold;
+}
+#lanesoccer {
+    width:400px;
+    height:300px;
+    border-style: dotted;
+    border-width:15px;
+}
+#schoolLife {
+    display:flex;
+}
+#pep {
+    width:400px;
+    height:300px;
+    border-style: double;
+    border-width:15px;
+}
+#comp {
+    width: 350px;
+    height:300px;
+    border-style: solid;
+    border-width: 15px;
+    border-color:gray;
+}
+#places {
+    font-size:30px;
+    text-align:center;
+    font-family:helvetica;
+    color:blue;
+    padding:0px;
+}
+#italy {
+    font-size:25px;
+    color:green;
+    font-family:verdana;
+}
+#italypic {
+    width:400px;
+    height:300px;
+    border-style: dashed;
+    border-width:20px;
+    
+}
+#greece {
+    font-size:25px;
+    text-align:center;
+    text-indent:500px;
+}
+#hig {
+    color: green;
+}
+#greecepic {
+    width:400px;
+    height:300px;
+    border-style:ridge;
+    border-width:20px;
+}
+#allPics {
+    display:flex;
+}
+#thai {
+    width:400px;
+    height:300px;
+    border-style: dotted;
+    border-width:15px;
+    border-color: #42f477;
+
+}
