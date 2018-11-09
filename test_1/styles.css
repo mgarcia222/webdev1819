@@ -1,0 +1,55 @@
+.one {
+    color:orange;
+    
+}
+#two {
+    font-weight:normal;
+    font-size:18px;
+    color:orange;
+}
+#three {
+    font-family:helvetica;
+}
+.feature {
+    color:red;
+}
+.main {
+    background-color:#ADD8E6;
+    box-shadow: 10px 10px 5px;
+    border-radius:10px;
+    border-radius: 25px;
+    padding-left: 12px;
+    padding-right:12px;
+    
+}
+.section2, .penguin {
+    border-style:dotted;
+    border-color: green;
+    border-width:3px;
+    padding-left:12px;
+    padding-right:12px;
+}
+.highli {
+    background-color:#FFFF00;
+}
+.noindent {
+    text-indent: -40px;
+}
+.pink {
+    background-color:pink;
+}
+.aqua {
+    background-color:aquamarine;
+}
+.lemon {
+    background-color: #FFF700;
+}
+.grape {
+    background-color:#6f2da8;
+}
+.penguin {
+    background-image:url("http://goo.gl/e2x4ZK ");
+    background-repeat:no-repeat;
+    width:1815px;
+    height:200px;
+}
