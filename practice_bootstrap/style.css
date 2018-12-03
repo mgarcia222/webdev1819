@@ -1,3 +1,228 @@
+.row {
+    display: flex;
+    height:100px;
+
+}
 .col {
-    background-color:blue;
+    height:100px;
+    border-style:solid;
+    border-width: 5px;
+}
+.nine {
+    position: absolute;
+    right:0px;
+    height:90px;
+    border-style:solid;
+    border-width: 1px;
+}
+.on {
+    position: absolute;
+    right:0px;
+    height:130px;
+    background-color:yellow;
+    border-style:solid;
+    border-width: 1px;
+}
+.two {
+    position:absolute;
+    right:30px;
+    height:130px;
+    background-color:green;
+    border-style:solid;
+    border-width: 1px;
+}
+.three {
+    position: absolute;
+    top: 10px;
+    right:38px;
+    height:90px;
+    background-color: yellow;
+    border-style:solid;
+    border-width: 2px;
+    
+}
+.e {
+    position: absolute;
+    left:0px;
+    height:100px;
+    border-style:solid;
+    border-width: 2px;
+}
+.four {
+    position: absolute;
+    right:0px;
+    top:10px;
+    height:90px;
+    background-color:purple;
+    border-style:solid;
+    border-width: 2px;
+}
+.five {
+    position: absolute;
+    top:0px;
+    height:60px;
+    background-color:red;
+    border-style:solid;
+    border-width: 1px;
+}
+.six {
+    position: absolute;
+    bottom:0px;
+    height:30px;
+    background-color: gold;
+    border-style:solid;
+    border-width: 1px;
+}
+.seven {
+    position: absolute;
+    top:0px;
+    height:60px;
+    background-color:yellow;
+    border-style:solid;
+    border-width: 1px;
+}
+.eight {
+    position: absolute;
+    bottom: 0px;
+    height: 30px;
+    background-color: purple;
+    border-style:solid;
+    border-width: 1px;
+}
+.ten {
+    position:absolute;
+    right:0px;
+    height:60px;
+    background-color:red;
+    border-style:solid;
+    border-width: 1px;
+}
+.el {
+    position: absolute;
+    height:35px;
+    right:0px;
+    bottom:0px;
+    background-color: pink;
+    border-style:solid;
+    border-width: 1px;
+}
+.f {
+    height:90px;
+    position: absolute;
+    left:0px;
+    border-style:solid;
+    border-width: 1px;
+}
+.twe {
+    position:absolute;
+    height:60px;
+    background-color: brown;
+    border-style:solid;
+    border-width: 1px;
+}
+.thi {
+    position: absolute;
+    bottom: 0px;
+    height: 30px;
+    background-color: blue;
+    border-style:solid;
+    border-width: 1px;
+}
+.fo {
+    background-color: purple;
+    position: absolute;
+    top:0px;
+    height:60px;
+    border-style:solid;
+    border-width: 1px;
+}
+.fi {
+    position: absolute;
+    bottom:0px;
+    height:30px;
+    background-color: green;
+    border-style:solid;
+    border-width: 1px;
+}
+.si {
+    position: absolute;
+    right:0px;
+    height:80px;
+    background-color: blue;
+    border-style:solid;
+    border-width: 1px;
+}
+.se {
+    position: absolute;
+    right:-50px;
+    bottom:0px;
+    background-color: red;
+    height:10px;
+    border-style:solid;
+    border-width: 1px;
+}
+.sev {
+    position: absolute;
+    height:30px;
+    background-color: green;
+    border-style:solid;
+    border-width: 1px;
+}
+.ei {
+    top:30px;
+    height:50px;
+    background-color: gold;
+    border-style:solid;
+    border-width: 1px;
+}
+.je {
+    height:130px;
+    background-color: black;
+}
+.ar {
+    position: absolute;
+    right:0px;
+    bottom:0px;
+    height:60px;
+    background-color:yellow;
+    border-style:solid;
+    border-width: 1px;
+}
+.fit {
+    position: absolute;
+    left:0px;
+    height:60px;
+    background-color: red;
+}
+.sixt {
+    position: absolute;
+    left:0px;
+    bottom:-10px;
+    height:70px;
+    background-color: blue;
+}
+.sevte {
+    position: absolute;
+    top:30px;
+    height: 60px;
+    background-color: green;
+}
+.eighte {
+    position: absolute;
+    bottom:0px;
+    height:10px;
+    background-color: silver;
+}
+.ninet {
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+    height:10px;
+    background-color: black;
+}
+.twent {
+    position: absolute;
+    bottom:0px;
+    height:10px;
+    background-color: black;
 }
