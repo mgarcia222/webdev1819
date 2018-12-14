@@ -1,0 +1,72 @@
+.background {
+    background-color:rgb(204,255,255);
+}
+.form-group {
+    margin:20px;
+    padding:10px;
+
+}
+.one {
+    text-align: center;
+    font-family:Perpetua;
+}
+.form-horizontal {
+   width:1000px;
+   position: absolute;
+    right:50%;
+    left:25%;
+    background-color:rgb(245 , 245 , 220);
+}
+.two {
+    font-size:20px;
+}
+.three {
+    margin-top:40px;
+}
+.four {
+    margin-left:30px;
+    margin-top:20px;
+    font-family: perpetua;
+}
+.five {
+    width:100px;
+    height:100px;
+    padding:10px;
+}
+.six {
+    position: absolute;
+    bottom: 0px;
+    left:20px;
+    margin:0px;
+    padding:5px;
+    
+}
+.quest {
+    font-family:perpetua;
+    font-size:20px;
+}
+.button {
+    margin-left:30px;
+}
+.form-control {
+    width:20px;
+}
+.eight {
+    margin:20px;
+}
+.nine {
+    border-style: solid;
+    padding:10px;
+    width:300px;
+    background-color: white;
+}
+.ten {
+    float: right;
+    width:70px;
+}
+.twelve {
+    text-align: center;
+}
+.but {
+    margin:20px;
+}
