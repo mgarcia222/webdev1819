@@ -6,13 +6,16 @@
           <style>
                canvas {
     background-color: #ffdf5d;
+    
 }
                 canvas:hover {
                     background-color: #ff7a41;
                     border-style: dashed;
                     border-width:15px;
                     border-color:blue;
-
+                    margin: 20px 20px;
+   
+        
                 }
                 
           </style>
@@ -20,75 +23,81 @@
     <body>
         <canvas id="myCanvas" width="400" height="400">
         <script>
-            
-           
-            var canvas = document.querySelector("#myCanvas");
-            var context = canvas.getContext("2d");
-            
-            context.strokeStyle = "steelblue";
-            context.lineWidth = 10;
-            
-            
-            function drawM(){
-            context.translate(30, 80);
-            context.lineWidth = 5;
-            context.moveTo(40, 174);
-            context.lineTo(40, 44);
-            context.quadraticCurveTo(40, 25, 85, 69);
-            context.lineTo(95,80);
-            context.quadraticCurveTo(105,95,115, 80);
-            context.lineTo(145, 49);
-            context.quadraticCurveTo(170,24, 168,64);
-            context.lineTo(168, 174);
-            context.quadraticCurveTo(145, 174, 135, 154);
-            context.lineTo(135, 120);
-            context.quadraticCurveTo(135, 105, 105, 130);
-            context.quadraticCurveTo(95, 120, 80, 115);
-            context.quadraticCurveTo(70, 105, 75, 159);
-            context.quadraticCurveTo(70, 170, 40, 174);
-            context.fillStyle = "#ff8577";
-            }
-            
-            function drawG(){
-            context.moveTo(275, 70);
-            context.quadraticCurveTo(275, 40, 210, 55);
-            context.quadraticCurveTo(180, 75, 175, 115);
-            context.quadraticCurveTo(170, 150, 225, 170);
-            context.quadraticCurveTo(275, 170, 280, 105);
-            context.quadraticCurveTo(280, 100, 225, 105);
-            context.quadraticCurveTo(205, 105, 225, 125);
-            context.quadraticCurveTo(235, 125, 245, 125);
-            context.quadraticCurveTo(260, 125, 245, 145);
-            context.quadraticCurveTo(220, 165, 200, 115);
-            context.quadraticCurveTo(200, 80, 230, 80);
-            context.quadraticCurveTo(255, 80, 265, 95);
-            context.quadraticCurveTo(275, 80, 275, 70);
-            
-         
-            context.stroke();
-            context.fill();
-            }
-            var xPos = -100;
-            var yPos = 170;
- 
-            function update() {
-                context.clearRect(0, 0, canvas.width, canvas.height);
- 
+            var realStartX = 20;
+            var realStartY = 160;
+            function drawLetters(startX, startY) {
+                var canvas = document.querySelector("#myCanvas");
+                var context = canvas.getContext("2d");
                 context.beginPath();
-                drawM();
-                drawG();
-                context.fillStyle = "#FF6A6A";
+                context.strokeStyle = "steelblue";
+                context.lineWidth = 10;
+                context.lineWidth = 5;
+                var xPos = startX;
+                var yPos = startY;
+                context.moveTo(xPos, yPos);
+                
+                context.lineTo(xPos, yPos-132);
+                // context.quadraticCurveTo(40, 25, 85, 69);
+                context.quadraticCurveTo(xPos, yPos-151, xPos + 45, yPos-107);
+                context.lineTo(xPos + 55, yPos - 96);
+                // 100, 95
+                context.quadraticCurveTo(xPos + 60, yPos-81, xPos + 75, yPos - 96);
+                context.lineTo(xPos + 105, yPos-127);
+                
+                // context.quadraticCurveTo(170,24, 168,64);
+                context.quadraticCurveTo(xPos + 130, yPos - 152, xPos + 128, yPos - 112);
+                
+                context.lineTo(xPos + 128, yPos - 2); 
+                context.quadraticCurveTo(xPos+105, yPos-2, xPos+95, yPos-22);
+                context.lineTo(xPos + 95, yPos - 56);
+                context.quadraticCurveTo(xPos + 95, yPos - 71, xPos + 65, yPos - 46);
+                context.quadraticCurveTo(xPos+55, yPos-56, xPos+40, yPos-61);
+                context.quadraticCurveTo(xPos+30, yPos-71, xPos+35, yPos-17);
+                context.quadraticCurveTo(xPos+30, yPos-6, xPos, yPos-2);
+                context.fillStyle = "#ff8577";
+               
+                var gX = xPos + 240;
+                var gY = yPos - 106;
+                context.moveTo(gX, gY);
+                context.quadraticCurveTo(gX, gY-30, gX-65, gY-15);
+                context.quadraticCurveTo(gX-95, gY+5, gX-100, gY+45);
+                context.quadraticCurveTo(gX-105, gY+80, gX -50, gY+100);
+                context.quadraticCurveTo(gX, gY+100, gX+5, gY+35);
+                context.quadraticCurveTo(gX+5, gY+30, gX-50, gY+35);
+                context.quadraticCurveTo(gX-70, gY + 35, gX-50, gY+55);
+                context.quadraticCurveTo(gX-40, gY+55, gX-30, gY+55);
+                context.quadraticCurveTo(gX-15, gY+55, gX-30, gY+75);
+                context.quadraticCurveTo(gX-55, gY+95, gX-75, gY+45);
+                context.quadraticCurveTo(gX-75, gY+10, gX-45, gY+10);
+                context.quadraticCurveTo(gX-20, gY+10, gX-10, gY+15);
+                context.quadraticCurveTo(gX, gY+10, gX, gY);
+             
+                context.stroke();
                 context.fill();
- 
-  // update position
-                if (xPos > 600) {
-                    xPos = -100;
-                }
-                xPos += 3;
- 
-                requestAnimationFrame(update);
-            }   
-                update();
+            }
+            
+            drawLetters(realStartX, realStartY);
+            
+            function animate() {
+                setInterval(function() { 
+                    var canvas = document.querySelector("#myCanvas");
+                    var context = canvas.getContext("2d");
+                    context.clearRect(0, 0, canvas.width, canvas.height);
+                    drawLetters(realStartX, realStartY);
+                    if(realStartX < 120) {
+                        realStartX = realStartX + 10;
+                        realStartY = realStartY + 20;
+                    } else {
+                        realStartX = 20;
+                        realStartY = 160;
+                        realStartX = realStartX + 10;
+                        realStartY = realStartY + 20;
+                    }
+                }, 150);
+            }
+            
+            animate();
+            
         </script>
             
         </canvas>
