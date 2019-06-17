@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Final</title>
+        <link rel=stylesheet href="style.css" type ="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <style>
+            .firstHeader{
+                height:40px;
+                background-color:black;
+            }
+            .pearson {
+                width:100px;
+                height:40px;
+                font-family: "Open Sans", "Helvetica", "Verdana", sans-serif;
+                margin-left:30px;
+                text-align:center;
+                
+            }
+            .alwaysL {
+                width:200px;
+                float:right;
+                color:white;
+                height:40px;
+                padding-top:10px;
+                margin-right:-35px;
+                font-size:15px;
+                font-family: "Open Sans", "Helvetica", "Verdana", sans-serif;
+                
+            }
+            .progLab{
+                height:60px;
+                background-color:#DCDCDC;
+                
+                padding:5px 0px 0px 30px;
+                
+            }
+            .progLab2{
+                margin-left:10px;
+                width:350px;
+                color:#4FB095;
+                font-size:30px;
+                font-family: "Open Sans", "Helvetica", "Verdana", sans-serif;
+            }
+            .myLab{
+                width:240px;
+                float:right;
+                margin-top:10px;
+                margin-right:35px;
+                font-size:15px;
+                text-align:center;
+                font-family: "Open Sans", "Helvetica", "Verdana", sans-serif;
+            }
+            .bigPic{
+                background-image:url("./images/boy.jpg");
+                height:680px;
+                width:100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-left:0px;
+                
+                
+            }
+            .breakT{
+                width:40%;
+                height:390px;
+                margin-left:30px;
+                margin-top:60px;
+            }
+            .h1{
+                color:white;
+                margin-top:-160px;
+                margin-left:30px;
+                margin-bottom:20px;
+                font-size:30px;
+                font-family:Trebuchet MS, Helvetica, Sans Serif;
+            }
+            .bars{
+                margin-left:30px;
+                border-right:3px solid gray;
+                padding-right:8px;
+            }
+            .nextBar{
+                width:450px;
+                
+            }
+            .secPostIts{
+                height:250px;
+                display:flex;
+            }
+            .firstPost{
+                height:200px;
+                width:220px;
+                margin-top:35px;
+                margin-left:30px;
+                background-color:#0c5a39;
+                border-radius:5px;
+            }
+            .firstFonts{
+                font-size:15px;
+                padding:5px 0px 0px 15px;
+                color:white;
+            }
+            .logIn{
+                height:680px;
+                width:350px;
+                float:right;
+                background-color:black;
+                opacity:0.7;
+                margin-right:30px;
+                padding-top:10px;
+                
+            }
+            .insideOpac{
+                width:400px;
+                height:700px;
+                margin-top:30px;
+                opacity:1;
+                
+                
+            }
+            .firstInput{
+                border-radius:5px;
+                padding:5px;
+                color:gray;
+                border-color:gray;
+                margin:5px 5px 5px 0px;
+                width:285px;
+            }
+            .signInButton{
+                border-radius:5px;
+                padding:5px;
+                color:white;
+                background-color:#17a061;
+                width:285px;
+                height:45px;
+                margin:5px 5px 5px 0px;
+                
+            }
+            .sign 
+            {
+                width:30px;
+                
+            }
+            .bottom {
+                height:620px;
+                display:flex;
+            }
+            .leftBottom{
+                height:500px;
+                width:50%;
+                color:gray;
+                padding:30px;
+            }
+            .rightBottom{
+                height:500px;
+                width:50%;
+                color:gray;
+                padding:50px;
+                
+            }.bottomBottom{
+                height:400px;
+                background-color:#302f30;
+                display:flex;
+                
+            }
+            .firstLeft{
+                height:370px;
+                width:20%;
+                position:absolute;
+                padding-left:50px;
+                
+                
+            }
+            .secondLeft{
+                height:370px;
+                width:20%;
+                background-color:yellow;
+                
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class = "col firstHeader">
+            <div class="alwaysL">
+                <p>ALWAYS LEARNING</p>
+            </div>
+            <div class= "pearson">
+            <!--look for font fam-->
+            <p style = "color:white; font-size: 23px;">PEARSON</p>
+            </div>
+        </div>
+        <div class= "col progLab container-fluid">
+            <div class="myLab">
+                <p><img src="./images/house.png" style="width: 20px;height:20px;"> MYLAB & MASTERING HOME</p>
+            </div>
+            <div class= "progLab2">
+               <p>MyProgrammingLab™ </p> 
+            </div>
+        </div>
+        <div class = "col bigPic">
+            <div class="col logIn">
+                <div style="width:295px;align:center;height:700px;margin-left:20px;margin-top:30px;">
+                    <h1 style= "color:white; font-size:25px">Sign In</h1>
+                    <p style="color:white; font-size:15px">Already registered? Sign in with your Pearson account</p>
+                    <form action="/action_page.php">
+                        <input type="text" name="username" value="username" class="firstInput"><br>
+                        <input type="text" name="password" value="password" class="firstInput"><br>
+                        <button class="signInButton" ><img class="sign" src="./images/signIn.png"> SIGN IN</button>
+                        
+                    </form><br>
+                    <h1 style="color:white; font-size:25px">Register</h1>
+                    <p style= "color:white;font-size:15px">Need access? Start here!</p>
+                    <button class = "signInButton"><img class="sign" src="./images/pencil.png"> STUDENT</button>
+                    <button class = "signInButton"><img class="sign" src="./images/pencil.png"> EDUCATOR</button>
+                </div>
+            </div>
+            <img src="./images/breakthrough.png" class ="breakT">
+            <h1 class ="h1">To improving results</h1>
+            <div class="col" style="height:75px; width:150px; display:flex">
+                <img src="./images/bars.png" class="bars">
+                <div>
+                    <p class = "nextBar" style="color:white; margin-left:15px;font-size:17px;"> Our goal is to help every student succeed. We're working with educators and institutions to improve results for students everywhere. <a href="lanetech.org" style="color:#80b65d"> Learn more ></a></p>
+                </div>
+            </div>
+            <div class = "secPostIts">
+                <div class="firstPost">
+                    <h1 style= "font-size:20px; color:white; padding-top:15px; padding-left:15px">EDUCATORS AND ADMINISTRATORS <a href= "lanetech.org" style= "color:gray;"> ></a></h1>
+                    <p class = "firstFonts">Results</p>
+                    <p class = "firstFonts">Features</p>
+                    <p class = "firstFonts">Training and Support</p>
+                </div>
+                <div class="firstPost" style="background-color:#5dad9e">
+                    <h1 style= "font-size:20px; color:white; padding-top:15px; padding-left:15px">Students <a href="lanetech.org" style="color:gray;">></a></h1>
+                    <p class = "firstFonts">Get Registered</p>
+                    <p class = "firstFonts">Support</p>
+                    <p class = "firstFonts">More...</p>
+                </div>
+            </div>
+        </div>
+        <div class = "col bottom">
+            <div class="leftBottom">
+                <h1 >Engage students with immersive content, tools, and experiences</h1>
+                <p>MyLab & Mastering is the world's leading collection of online homework, tutorial, and assessment products designed with a single purpose in mind: to improve the results of all higher education students, one student at a time.</p><br>
+                <p>With input from more than 11 million student users annually, MyLab & Mastering creates online learning experiences that are truly personalized and continuously adaptive. MyLab & Mastering reacts to how students are actually performing, offering data-driven guidance that helps them better absorb course material and understand dfficult concepts. </p><br>
+                <a style="color:#0c6ea6;" href="lanetech.org"><b>See how MyProgrammingLab delivers measurable results ></b> </a>
+            </div>
+            <div class = "col rightBottom">
+                <img style = "width:100%; height:100%; " src="./images/lady.png"><br>
+                <p style="padding-top:20px;"><b>Truth in Numbers 2.0</b> In December 2014 we surveyed thousands of college students about their experiences with MyLab & Mastering by Pearson. Here's what they had to say.</p><br>
+                <p><b>Having trouble watching the video?</b> <a style = "color:blue" href= "lanetech.org">View the transcript</a></p>
+            </div>
+        </div>
+        <div class="bottomBottom row">
+            <div class="col" style="width:20%;padding-left:50px; ">
+                <h1 style="font-size:20px; color:gray; padding-top:40px">My ProgrammingLab</h1>
+                <p style="color:white">Sign In</p>
+                <p style="color:white">Register: Student</p>
+                <p style="color:white">Register: Educator</p>
+                <h1 style="font-size:20px; color:gray; padding-top:20px">Support</h1>
+                <p style="color:white">Educator Training & Support</p>
+                <p style="color:white">Student Support</p>
+                <p style="color:white">System Requirements</p>
+            </div>
+            <div class="col" style="width:20%; padding-left:50px">
+                <h1 style="font-size:20px; color:gray; padding-top:40px"> Educators & Administrators</h1>
+                <p style="color:white">Registration</p>
+                <p style="color:white">Results</p>
+                <p style="color:white">Features</p>
+                <p style="color:white">Titles Available</p>
+                <p style="color:white">Community</p>
+                <p style="color:white">Training & Support</p>
+            </div>
+            <div class="col" style="width:20%; padding-left:50px">
+                <h1 style="font-size:20px; color:gray; padding-top:40px">Students</h1>
+                <p style="color:white">Get Registered</p>
+                <p style="color:white">Features</p>
+                <p style="color:white">Support</p>
+                <p style="color:white">Get Involved</p>
+            </div>
+            <div class="col" style="width:20%; padding-left:80px">
+                <h1 style="font-size:20px; color:gray; padding-top:40px">MyLab & Mastering</h1>
+                <p style="color:white">Home</p>
+            </div>
+            <div class="col" style="width:20%; padding-left:50px">
+                <h1 style="font-size:20px; color:gray; padding-top:40px">Pearson Higher Education</h1>
+                <p style="color:white">View our website</p>
+            </div>
+            <hr>
+            <div class="last">
+                <p>Copyright C2016 Pearson Education</p>
+                
+            </div>
+        </div>
+        
+        <!-- <div class="jumbotron text-center">
+        <h1>My First Bootstrap Page</h1>
+        <p>Resize this responsive page to see the effect!</p> -->
+        </div>
+    </body>
+</html>
